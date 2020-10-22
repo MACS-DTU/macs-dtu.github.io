@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #fff;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+p,
+.display-6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display-light {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-main {
+    color: #0a3d62
+}
+
+.text-orange {
+    color: #ff9f1a;
+}
+
+.bg-orange {
+    background-color: #ff9f1a;
+}
+
+.bg-orange:hover,
+.bg-orange:active,
+.bg-orange:focus {
+    background-color: #ff9f1a;
+}
+
+.bg-main {
+    background-color: #0a3d62;
+}
+
+.bg-main:hover,
+.bg-main:active,
+.bg-main:focus {
+    background-color: #0a3d62;
+}
+
+.bg-light-main {
+    background-color: #0a3d6221;
+}
+
+@media (max-width: 320px) {
+    .display-4 {
+        font-size: 2.7rem;
+    }
+
+    .fa.fa-github {
+        display: none;
+    }
+}
+
+@media (max-width: 270px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .fa.fa-github {
+        display: none;
+    }
+}
